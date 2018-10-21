@@ -23,6 +23,9 @@ body {
     padding-top: 56px;
   }
 }
+
+/* Defines the background colors and images for each        page
+*/
 #backgroundImage {
     background-image: url("../images/oldmainbackground.jpg");
     /* Half height */
@@ -33,6 +36,17 @@ body {
     background-size: cover;
     /* border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px; */
+}
+
+#weAreBackgroundImage{
+    background-image: url("../images/people.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#weAre-container{
+    background-color: #d6d4d3;
 }
 
 #howTo-container {
