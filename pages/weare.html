@@ -14,11 +14,110 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <link href="../css/round-about.css" rel="stylesheet">
     <link rel="icon" href="../images/icon.png">
-
+    
+    <style>
+    .personalInfo{
+    width: auto;
+    overflow:auto;
+    height: 200px;
+    }
+        
+        .item{
+            float:left;
+            margin-right: 5px;
+        }
+    .clearfix{
+        *zoom:1;
+    }
+    .clearfix:before,
+    .clearfix:after{
+        content: " ";
+        display: table;
+    }
+    .clearfix:after{
+        clear: both;
+    }
+        
+        body > div{
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
     
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navBar">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Music Education at Penn State</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">We Are<span class="sr-only">(current)</span>
+</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="howto.html">How To Apply
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#contactSection">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="scholarlycommunity.html">Community</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     
-    <h1>Temp Header to show page is loaded</h1>
+    <!-- The main body of the page
+            the background picture and information is in round-about.css-->
+    <div class="container-fluid remove-all-marign">
+        <div class="container-fluid remove-all-margin" id="weAreBackgroundImage">
+            <br>
+            <div class="container" id="weAre-container" style="overflow: auto">
+            <br>
+            <div class="faculty">
+                <h1 class="p-3 text-center">Faculty</h1>
+            <div class="clearfix item">
+            <img src="/images/happystudent.jpg" alt="" width="160" align="left">
+            <div class="personalInfo">
+                Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.
+            </div>
+            </div>
+            <br>
+            </div>
+                <div class="graudateStudents" style="clear: left">
+                <h1 class="p-3 text-center">Graduate Students</h1>
+                    <div class="clearfix item">
+                        <img src="/images/happystudent.jpg" alt="" width="160" align="left">
+                        <div class="personalInfo">Temporary Text</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <!-- Footer -->
+  <footer class="p-5 m-0 bg-dark" id="footer">
+    <div class="container">
+      <p class="m-0 text-center text-white">Penn State Music Education
+      </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/firebaseDB.js"></script>
+  <script src="js/mainScripts.js"></script>
 </body>
