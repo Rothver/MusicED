@@ -53,7 +53,25 @@ body {
  background-color: #d6d4d3;
 }
 
+#happyValleyBackgroundImage{
+    background-image:url("../images/beaverstadium.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #happyVally-container {
+    background-color: #d6d4d3;
+}
+
+#pathsBackgroundImage{
+    background-image: url("../images/happystudent.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#paths-container{
     background-color: #d6d4d3;
 }
 

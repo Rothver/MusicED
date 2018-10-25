@@ -19,34 +19,11 @@
       
     <!--Style for the different boxes containing information about the campus -->
       <style>
-          #recActivities{
-              display:table-cell
+          td{
+              border: 1px solid black;
+              align-content: center;
+              
           }
-          
-          #restaurents{
-              display:table-cell;   
-          }
-          
-          #artVenues{
-              display: table-cell;
-          }
-          
-          #schoolDistricts{
-              display:table-cell;
-          }
-          
-          #industries{
-              display:table-cell;
-          }
-          
-          #housingOptions{
-              display:table-cell;
-          }
-          
-          #childCare{
-              display:table-cell;
-          }
-          
       </style>
   </head>
 
@@ -78,48 +55,68 @@
       </div>
     </nav>
 
-      <!--Container for the Main part of Page
-            ID is referenced in round-about.css file
-            contains h3 for main head
-            temp h4+ for the next boxs-->
-    <div id="happyVally-container">
-      <h3 class = "p-3 text-center">Become a Part of Happy Valley</h3>
-        <div style="display:table">
-        <div style="display:table-row">
+    <div class="container-fluid remove-all-marign" id="happyValleyBackgroundImage">
+        <div class="container" id="happyVally-container">
+            <br>
+            <h3 class="p-3 text-center" style="text-align: center; text-decoration: underline">Become a Part of Happy Valley</h3>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <div class="recreationActivities">
+                            <p class="p-3 text-center"><b>Recreation Activities</b></p>
+                            <br>
+                            <p style="text-align: center">Temporary Text</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="restaurants">
+                            <p class="p-3 text-center"><b>Restaurants</b></p>
+                            <p style="text-align:center">Temporary Text</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="artsVenues">
+                            <h3 class="p-3 text-center"><b>Arts Venues</b></h3>
+                            <p style="text-align: center">Temporary Text</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
             
-        <div id="recActivities">
-            <h4 class="p-3 text-center">Recreation Activities</h4>
-          <!--  <p>Testing Text</p> -->
+            <table style="width: 100%">
+                <tr>
+                    <td>
+                        <div class="schoolDistricts">
+                            <p class="p-3 text-center"><b>School Districts</b></p>
+                            <p style="text-align: center">Temporary Text</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="industries">
+                            <p class="p-3 text-center"><b>Industries</b></p>
+                            <p style="text-align: center">Temporary Text</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="housingOptions">
+                            <p class="p-3 text-center"><b>Housing Options</b></p>
+                            <p style="text-align: center">Temp Text</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="childcareOptions">
+                            <p class="p-3 text-center"><b>Childcare Options</b></p>
+                            <p style="text-align: center">Temp Text</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
-            
-        <div id="restaurents"><h5 class="p-3 text-center">Restaurants</h5>
-          <!--  <p>Testing Text</p> -->
-        </div>
-            
-        <div id="artVenues">
-          <h5 class="p-3 text-center">Arts Venues</h5>
-          <!--  <p>Testing Text</p> -->
-      </div>
-        </div> 
-            <div style="display: table-row">
-        <div id="schoolDistricts"><h6 class="p-3 text-center">School Districts</h6>
-          <!--  <p>Testing Text</p> -->
-        </div>
-                <div id="industries"><h7 class="p-3 text-center">Industries</h7>
-          <!--  <p>Testing Text</p> -->
-            </div>
-            </div>
-            <div style="display:table-row">
-                <div id="housingOptions">
-                    <h6 class="p-3 center-text">Housing Options</h6>
-            </div>
-                <div id="childCare">
-                <h7 id="childCare">ChildCare Options</h7></div>
-        </div>
-        
     </div>
       
-
 <!-- Footer -->
     <div class="page-footer p-5 m-0 bg-dark" id="footer">
         <div class="container">
