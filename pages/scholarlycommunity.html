@@ -1,72 +1,133 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Chandler Goewert">
+    <meta name="author" content="Arturo Norico">
 
-    <title>How to Apply? Music Education</title>
+    <title>Scholarly Community</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="../css/round-about.css" rel="stylesheet">
     <link rel="icon" href="../images/icon.png">
 
-  </head>
+    <style>
+        .personalInfo {
+            width: auto;
+            overflow: auto;
+            height: 200px;
+        }
 
-  <body>
+        .item {
+            float: left;
+            margin-right: 5px;
+        }
 
+        .clearfix {
+            *zoom: 1;
+        }
+
+            .clearfix:before,
+            .clearfix:after {
+                content: " ";
+                display: table;
+            }
+
+            .clearfix:after {
+                clear: both;
+            }
+
+        body > div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navBar">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html">Music Education at Penn State</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="howto.html">How To Apply</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#contactSection">Contact</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Community
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Music Education at Penn State</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            We Are<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howto.html">
+                            How To Apply
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contactSection">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="scholarlycommunity.html">Community</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <div class="container">
-      
+    <!-- The main body of the page
+            the background picture and information is in round-about.css-->
+    <div class="container-fluid remove-all-marign">
+        <div class="container-fluid remove-all-margin" id="douglasBackgroundImage">
+            <br>
+            <div class="container" id="douglas-container" style="overflow: auto">
+                <br>
+                <div class="faculty">
+                    <h1 class="p-3 text-center">Scholarly Community</h1>
+                    <h2 class=" p-3 text-center">Current Research</h2>
+                    <div class="clearfix item">
+                        <div class="col-md-2">
+                            <img class="img-fluid" src="images/Douglas.jpeg" alt="douglas image" >
+                            
+                        </div>
+                        <div class="personalInfo">
+                            Douglas C. McCall is currently working on a study to examine the perspectives of…….
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="graudateStudents" style="clear: left">
+                    <h2 class="p-3 text-center">Recently Completed Research</h2>
+                    <div class="clearfix item">
+                        <img src="happyvalleystudent.jpg" align="left">
+                        <div class="personalInfo">placeholder</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
     </div>
-
-<!-- Footer -->
-    <div class="page-footer p-5 m-0 bg-dark" id="footer">
+    <!-- Footer -->
+    <footer class="p-5 m-0 bg-dark" id="footer">
         <div class="container">
-          <p class="m-0 text-center text-white">Penn State Music Education</p>
+            <p class="m-0 text-center text-white">
+                Penn State Music Education
+            </p>
         </div>
         <!-- /.container -->
-      </div>
-  
-      <!-- Bootstrap core JavaScript -->
-      <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-      <script src="../vendor/jquery/jquery.min.js"></script>
-      <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="../js/firebaseDB.js"></script>
-      <script src="../js/mainScripts.js"></script>
-  
-    </body>
-  
-  </html>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/firebaseDB.js"></script>
+    <script src="js/mainScripts.js"></script>
+</body>
