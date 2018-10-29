@@ -54,7 +54,7 @@ body {
 }
 
 #happyValleyBackgroundImage{
-    background-image:url("../images/beaverstadium.jpeg");
+    background-image: url("../images/beaverstadium.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body {
     background-image: url("../images/happystudent.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 #paths-container{
