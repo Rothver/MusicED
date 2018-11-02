@@ -16,7 +16,6 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
   <link href="css/round-about.css" rel="stylesheet">
 
-
 </head>
 
 <body onload="getData()">
@@ -71,7 +70,7 @@
         <!-- Team Members Row -->
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="p-4 text-black" id="titleText">Live here, work here, learn here, grow here...</h2>
+            <h2 class="p-4 text-black text-center" id="titleText">ARE YOU READY??</h2>
           </div>
           <!-- First Tile Section -->
           <div class="col-lg-4 col-sm-6 text-center p-3" onmouseout="unfadeTile(firstTileBg)" onmouseover="fadeTile(firstTileBg, 1)"
@@ -91,7 +90,8 @@
             onclick="location.href='pages/howto.html';" style="cursor: pointer;">
             <div onmouseover="fadeTile(secondTileBg, 2)" onmouseout="unfadeTile(secondTileBg)" id="secondTileBg"></div>
             <h3 class="px-4 text-left text-white">Beginning Your Journey</h3>
-            <h4 class="px-4 text-left text-white">How do you apply?</h4>
+              <!--
+              <h4 class="px-4 text-left text-white">How do you apply?</h4>
             <ol class="mx-auto text-left text-white">
               <li>Graduate Application</li>
               <li>Official Transcript</li>
@@ -99,6 +99,7 @@
               <li>500 word statement</li>
               <li>Resume</li>
             </ol>
+                -->
           </div>
           <!-- Third Tile Section -->
           <div class="col-lg-4 col-sm-6 text-center p-3" id="thirdTile" onmouseout="unfadeTile(thirdTileBg)" onmouseover="fadeTile(thirdTileBg, 3)"
@@ -150,18 +151,27 @@
               <p class="p-4 text-left text-white">This is YOUR journey!</p> -->
             </div>
           </div>
+            <div class="text-display text-center" align="right
+">
+            <h3 id="weAre-text">WE ARE</h3>
+            </div>
         </div>
       </div>
     </div>
 
-
+      <div class="container">
+        <div class="introNarrative" id="introduction">
+            <p class="p-3 text-center">Introduction</p>
+            <p class="p-3">Temporary Text</p>
+        </div>
+      </div>
 
 
     <div class="container">
 
-      <div class="mt-4 col-md-12" name="currentStudents" id="currStudents">
+      <div class="mt-4 col-md-12" name="currentStudents" id="testimonials">
         <div class="col-md-10 p-3 mx-auto">
-          <h2 class="pt-4 text-white text-center">Student Testimonials</h2>
+          <h2 class="pt-4 text-white text-center">Testimonials</h2>
           <hr>
           <div class="row" onclick="location.href='pages/testemonial.html';" style="cursor: pointer;">
             <div class="col-md-2">
@@ -217,7 +227,7 @@
           </form>
         </div>
       </div>
-
+        <br>
     </div>
   </div>
   <!-- /.container -->

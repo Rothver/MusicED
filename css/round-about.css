@@ -199,12 +199,19 @@ body {
   background-color: #7a92c0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  margin-bottom: 0em;
+  margin-bottom: 0em; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
-#currStudents {
+#testimonials {
   border-radius: 25px;
   background-color: #d6d4d3;
+}
+
+#introduction{
+    border-radius: 25px;
+    background-color:#d6d4d3;
 }
 
 #contactSection label{
