@@ -41,6 +41,19 @@
         body > div{
             margin-bottom: 10px;
         }
+		.column {
+    float: left;
+    width: 50%;
+    padding: 10px;border: 1px solid black;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
     </style>
 </head>
 
@@ -58,24 +71,31 @@
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">We Are<span class="sr-only">(current)</span>
 </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="howto.html">How To Apply
+            <li class="nav-item">
+              <a class="nav-link" href="howto.html">Apply
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../index.html#contactSection">Contact</a>
+              <a class="nav-link" href="../index.html#contactSection">Happy Valley</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="scholarlycommunity.html">Community</a>
+              <a class="nav-link" href="scholarlycommunity.html">Research</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="support.html">Support</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="paths.html">Path</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     
     <!-- The main body of the page
             the background picture and information is in round-about.css-->
@@ -87,24 +107,63 @@
             <div class="faculty">
                 <h1 class="p-3 text-center">Faculty</h1>
             <div class="clearfix item">
-            <img src="../images/happyvalleystudent.jpg" align="left">
-            <div class="personalInfo">
-                Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.
-            </div>
+          <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
+				<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+					<div class="column" style="background-color:#aaa;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+					<div class="column" style="background-color:#bbb;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+					<div class="column" style="background-color:#aaa;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+					<div class="column" style="background-color:#bbb;">
+    <h2>Dr. Ann C. Clements</h2>
+    <img src="../images/happystudent.jpg" alt="" width="160" height="160" align="center"><p>
+		Dr. Ann C. Clements (Associate Professor, Graduate Program Chair for Music Education) - An active researcher, musician, and pedagogue, Clements has given over 150 presentations throughout the United States and in Australia, Brazil, the Baltics, Canada, Japan, Mexico, New Zealand, and the United Kingdom. She is published in multiple national and international journals including the Journal of Research in Music Education, Mountain Lake Reader, International Society for Music Education, General Music Today, and Journal of Research for the New Zealand Performing Arts.</p>
+  </div>
+</div>
+           <!-- <div class="personalInfo">  -->
+                
+        <!--    </div>  -->
+					
             </div>
             <br>
             </div>
-                <div class="graudateStudents" style="clear: left">
+				
+            <!--    <div class="graudateStudents" style="clear: left">
                 <h1 class="p-3 text-center">Graduate Students</h1>
                     <div class="clearfix item">
                         <img src="../images/happyvalleystudent.jpg" align="left">
                         <div class="personalInfo">Temporary Text</div>
                     </div>
-                </div>
+                </div> -->
             </div>
+		
+
             <br>
         </div>
     </div>
+	
+	
+	
     <!-- Footer -->
   <footer class="p-5 m-0 bg-dark" id="footer">
     <div class="container">
