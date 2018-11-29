@@ -21,6 +21,7 @@
       <style>
           #recActivities{
               display:table-cell
+			  
           }
           
           #restaurents{
@@ -46,7 +47,70 @@
           #childCare{
               display:table-cell;
           }
-          
+		  
+		  
+.inlineTable {
+            display: inline-block;
+        }
+
+            .personalInfo{
+    width: auto;
+    overflow:auto;
+    height: 200px;
+    }
+        
+        .item{
+            float:left;
+            margin-right: 5px;
+        }
+    .clearfix{
+        *zoom:1;
+    }
+    .clearfix:before,
+    .clearfix:after{
+        content: " ";
+        display: table;
+    }
+    .clearfix:after{
+        clear: both;
+    }
+        
+        body > div{
+            margin-bottom: 10px;
+        }
+		.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+		.columnBorders{
+    float: left;
+    width: 50%;
+    padding: 10px; border: 1px solid black;
+}
+
+		
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+		  h2 {
+        color: #FFFFFF;
+			  text-shadow: 2px 2px #000000;
+}
+		  h1 {
+        color: #FFFFFF;
+			  text-shadow: 2px 2px #000000;
+}
+		   h3 {
+        color: #FFFFFF;
+			   text-shadow: 2px 2px #000000;
+}
+		  
+		  p.indent{ padding-left: 10.8em }
       </style>
   </head>
 
@@ -93,41 +157,84 @@
             ID is referenced in round-about.css file
             contains h3 for main head
             temp h4+ for the next boxs-->
-    <div id="happyVally-container">
-      <h3 class = "p-3 text-center">Become a Part of Happy Valley</h3>
-        <div style="display:table">
-        <div style="display:table-row">
-            
-        <div id="recActivities">
-            <h4 class="p-3 text-center">Recreation Activities</h4>
-          <!--  <p>Testing Text</p> -->
-        </div>
-            
-        <div id="restaurents"><h5 class="p-3 text-center">Restaurants</h5>
-          <!--  <p>Testing Text</p> -->
-        </div>
-            
-        <div id="artVenues">
-          <h5 class="p-3 text-center">Arts Venues</h5>
-          <!--  <p>Testing Text</p> -->
-      </div>
-        </div> 
-            <div style="display: table-row">
-        <div id="schoolDistricts"><h6 class="p-3 text-center">School Districts</h6>
-          <!--  <p>Testing Text</p> -->
-        </div>
-                <div id="industries"><h7 class="p-3 text-center">Industries</h7>
-          <!--  <p>Testing Text</p> -->
+   <div class="container-fluid remove-all-marign">
+        <div class="container-fluid remove-all-margin" id="weAreBackgroundImage">
+            <br>
+           <div class="container" id="stats-container" style="overflow: auto">
+            <br>
+            <div class="faculty">
+                <h1 class="p-3 text-center">STATE COLLEGE, PA</h1>
+            <div class="clearfix item">
+          <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
+				<div class="row">
+  <div class="column">
+    <h2 align="center">Average Apartment Cost</h2>
+    <p>
+		<h3><center>$1000</center></p></h3>
+  </div>
+  <div class="column">
+    <h2 align="center">Average Home Rental Cost</h2>
+    <p>
+	  <h3><center>$2000</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center">Average Home Purchase Price</h2>
+    <p>
+		<h3><center>$200,000</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center">Population Data</h2>
+    <p>
+		<h3><center>45,000</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center">Median Age Data</h2>
+    <p>
+		
+			<h3><center>25 Years</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center"># of Families on campus</h2>
+    <p>
+		<h3><center>5,000</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center">Employment Rate</h2>
+    <p>
+		<h3><center>80%</center></p></h3>
+  </div>
+					<div class="column">
+    <h2 align="center">Crime rate</h2>
+    <p>
+		<h3><center>2%</center></p></h3>
+  </div>
+</div>
+           <!-- <div class="personalInfo">  -->
+                
+        <!--    </div>  -->
+					
             </div>
+            <br>
             </div>
-            <div style="display:table-row">
-                <div id="housingOptions">
-                    <h6 class="p-3 center-text">Housing Options</h6>
+				
+            <!--    <div class="graudateStudents" style="clear: left">
+                <h1 class="p-3 text-center">Graduate Students</h1>
+                    <div class="clearfix item">
+                        <img src="../images/happyvalleystudent.jpg" align="left">
+                        <div class="personalInfo">Temporary Text</div>
+                    </div>
+                </div> -->
+				
+				
+				
+				
+				
+				
             </div>
-                <div id="childCare">
-                <h7 id="childCare">ChildCare Options</h7></div>
+		
+
+            <br>
         </div>
-        
     </div>
       
 
