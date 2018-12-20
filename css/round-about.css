@@ -45,23 +45,15 @@ body {
     background-size: cover;    
 }
 
-#weAre-container{
+#weAre-container,#happyVally-container,#howTo-container, #paths-container, #support-container{
     background-color: #d6d4d3;
-}
-
-#howTo-container {
- background-color: #d6d4d3;
 }
 
 #happyValleyBackgroundImage{
-    background-image: url("../images/beaverstadium.jpeg");
+    background-image: url("../images/Happy_Valley_PagePic.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#happyVally-container {
-    background-color: #d6d4d3;
 }
 
 #pathsBackgroundImage{
@@ -69,10 +61,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#paths-container{
-    background-color: #d6d4d3;
 }
 
 #intro, #firstTile, #secondTile, #thirdTile, #fourthTile, #fifthTile, #sixthTile {
@@ -140,7 +128,7 @@ body {
     linear-gradient(
       rgba(0, 0, 0, 0.9), 
       rgba(0, 0, 0, 0.45)
-    ), url(../images/beaverstadium.jpeg);
+    ), url(../images/Happy_Valley_buttonImage.png);
     background-position:center;
     background-size: cover;
     border-radius: 25px;
@@ -236,4 +224,8 @@ body {
 .remove-all-margin{
   margin-bottom:0 ! important;
   padding:0 ! important;
+}
+
+.listItems{
+    margin-left: 40px;
 }
