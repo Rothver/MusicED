@@ -17,28 +17,18 @@
   <link href="css/round-about.css" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="vendor/jquery/parallax.js"></script>
+
 <style>
 body, html {
   height: 100%;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url('images/som.JPG');
-
-  /* Full height */
-  height: 1000px; 
-
-  /* Create the parallax scrolling effect */
-
-  background-attachment: fixed;
-  background-position-x:center;
-  background-position-y:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 </style>
 </head>
+
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navBar">
@@ -76,21 +66,18 @@ body, html {
       </div>
     </nav>
 
-
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/som.JPG">
 <!-- Page Contents --> 
-<div class="parallax">
+
   <div style="padding-top:15%; background-color:transparent"></div>
 
   <div style="background:rgba(0, 0, 0, 0.0); padding-top:50px; padding-bottom:100px">
     <div style="text-align:center; font-size:25px; font-weight:bold; color:white">ARE YOU READY??</div>
   </div>
-    <div style="background:rgba(0, 0, 0, 0.0); padding-top:250px">
+  <div style="background:rgba(0, 0, 0, 0.0); padding-top:250px">
     <div style="text-align:right; font-size:25px; padding-right: 10%; font-weight:bold; color:white">WE ARE!</div>
   </div>
-<!-- END parallax -->
-</div>
 
-<div class="parallax">
   <div style="background:rgba(255, 255, 255, 0.85); padding-top:50px; padding-bottom:50px height:1000px">
     <div style="text-align:center; font-size:20px; font-weight:bold; color:black">Ph.D. in Music Education –The Penn State Difference</div>
     <br />
@@ -103,17 +90,9 @@ body, html {
     <p style="padding-left:10%; padding-right:10%">We are dedicated to having best instructors for our graduate students. Every one of our faculty has held leadership positions in major national and international organizations including the Society for Music Teacher Education, the Society for Ethnography, the American String Teachers Association, the National Association for Music Education, the Mountain Lake Colloquium, the MayDay Group, the American Choral Directors Association, the Society for Research in Music Education, the International Society for Music Education and the Pennsylvania Music Educators Association. Our faculty are also active in publication.  Several of our faculty have book or book chapter publications with leading publishers including Routledge and Oxford Press. Additionally, our faculty are regularly featured in a variety of recognized journals including, the Journal of Research in Music Education, the Bulletin of the Council for Research in Music Education, the Music Educators Journal, the Mountain Lake Reader, the International Journal of Music Education, Indigenous Knowledge, the Choral Journal, the American String Teacher, Update: Applications of Research in Music Education, the Journal of Music Teacher Education, Action, Criticism and Theory for Music Education and Visions of Research in Music Education.</p>
     <p style="padding-left:10%; padding-right:10%;  font-weight:bold">Program</p>
     <p style="padding-left:10%; padding-right:10%">We are unique in that we provide three dissertation approaches, the traditional one study approach as well as a two-study and three-study approach that allows our students to develop their dissertation over the entire time they are studying at Penn State. Doctoral students normally spend three full-time academic years on campus for this program in order to fully participate in the community of scholars comprising fellow students and faculty. Most doctoral students have graduate assistantships that support them and provide them with the experience of teaching undergraduate students.</p>
+    <br />
   </div>
 
-</div>
-
-
-
-
-<div class="parallax">
-  <div style="background:rgba(255, 255, 255, 0.85); height:100px"></div>
-
-<div style="height:100px"></div>
 
 <!-- TESTIMONIAL  -->
 <div class="mt-4 col-md-12" name="currentStudents" id="testimonials">
@@ -150,14 +129,8 @@ body, html {
     <hr>
   </div>
 </div>
-</div>
 
 
-
-<!--FIX THIS -->
-
-<!--FIX THIS -->
-<div class="parallax">
   <div style="height:100px"></div>
     <div class="container-fluid remove-all-margin" >
       <div class="container">
@@ -249,10 +222,7 @@ body, html {
         </div>
       </div>
     </div>
-  </div>
-
-
-
+</div>
   <!-- /.container -->
 
   <!-- Footer -->
