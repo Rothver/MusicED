@@ -45,11 +45,11 @@ body {
     background-size: cover;    
 }
 
-#weAre-container,#happyVally-container, #paths-container, #support-container{
+#weAre-container,#happyVally-container, #paths-container{
     background-color: #d6d4d3;
 }
 
-#howTo-container{
+#howTo-container, #support-container{
   background:rgba(255, 255, 255, 0.85)
 }
 
