@@ -6,60 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Arturo Norico">
-    
+
     <title>We Are</title>
-    
+
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="../css/round-about.css" rel="stylesheet">
     <link rel="icon" href="../images/icon.png">
-    
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../vendor/jquery/parallax.js"></script>
+
+
+
     <style>
-    .personalInfo{
-    width: auto;
-    overflow:auto;
-    height: 200px;
-    }
-        
-        .item{
-            float:left;
+        .personalInfo {
+            width: auto;
+            overflow: auto;
+            height: 200px;
+        }
+
+        .item {
+            float: left;
             margin-right: 5px;
         }
-    .clearfix{
-        *zoom:1;
-    }
-    .clearfix:before,
-    .clearfix:after{
-        content: " ";
-        display: table;
-    }
-    .clearfix:after{
-        clear: both;
-    }
-        
-        body > div{
+
+        .clearfix {
+            *zoom: 1;
+        }
+
+            .clearfix:before,
+            .clearfix:after {
+                content: " ";
+                display: table;
+            }
+
+            .clearfix:after {
+                clear: both;
+            }
+
+        body > div {
             margin-bottom: 10px;
         }
-		.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
 
-		.columnBorders{
-    float: left;
-    width: 50%;
-    padding: 10px; border: 1px solid black;
-}
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
 
-		
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+        .columnBorders {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 
@@ -102,180 +114,183 @@
       </div>
     </nav>
 
-    
-    <!-- The main body of the page
+    <div class="parallax-window" data-parallax="scroll" data-image-src="../images/interior2.JPG">
+        <div style="padding-top:25%"></div>
+
+
+    </div>
+        <!-- The main body of the page
             the background picture and information is in round-about.css-->
-    <div class="container-fluid remove-all-marign">
-        <div class="container-fluid remove-all-margin" id="weAreBackgroundImage">
-            <br>
-            <div class="container" id="weAre-container" style="overflow: auto">
-            <br>
-            <div class="faculty">
-                <h1 class="p-3 text-center">Faculty</h1>
-            <div class="clearfix item">
-          <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
-				<div class="row">
-  
-  <div class="columnBorders" style="background-color:#aaa;">
-    <h2>Dr. Bryan E. Nichols</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-	  	  <p><b>Title:</b> Assistant Professor of Music Education</p>
-		  <p><b>Years at Penn State:</b> 1 year<p><b>Contact:</b></p><p>Phone: (814)865-6521</p><p>Email:<font color = "blue"> bnichols@psu.edu</font><p>Office Number: 105 Music Building</p></p></p></p><a href="faculty_1.html" >Read More...</a>
-  </div>
-	
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Dr. Sarah Watts</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Assistant Professor of Music Education</p>
-				  <p><b>Years at Penn State:</b> 4 (plus 6 as a student) years<p><b>Contact:</b></p><p>Phone: (814) 863-0419</p><p>Email:<font color = "blue"> shs133@psu.edu</font><p>Office Number: 212 Music Building I</p></p></p></p><a href="faculty_2.html" >Read More...</a>
- 	</div>
-	
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Dr. Linda Thornton</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Assistant Professor of Music Education</p>
-				  <p><b>Years at Penn State:</b> 17 years<p><b>Contact:</b></p><p>Phone: (814) 863-5723</p><p>Email:<font color = "blue"> lct12@psu.edu</font><p>Office Number: 212 Music Building I</p></p></p></p><a href="faculty_3.html" >Read More...</a>
- 	</div>
+        <div class="container-fluid remove-all-marign">
+            <div class="container-fluid remove-all-margin">
+                <br>
+                <div class="container" id="weAre-container" style="overflow: auto">
+                    <br>
+                    <div class="faculty">
+                        <h1 class="p-3 text-center">Faculty</h1>
+                        <div class="clearfix item">
+                            <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
+                            <div class="row">
 
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Dr. Robert D. Gardner</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Assistant Professor of Music Education</p>
-				  <p><b>Years at Penn State:</b> 15 years<p><b>Contact:</b></p><p>Phone: (814) 933-6995</p><p>Email:<font color = "blue"> rdg13@psu.edu</font><p>Office Number: 210 Music Building I</p></p></p></p><a href="faculty_4.html" >Read More...</a>
- 	</div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Bryan E. Nichols</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b> 1 year<p><b>Contact:</b></p><p>Phone: (814)865-6521</p><p>Email:<font color="blue"> bnichols@psu.edu</font><p>Office Number: 105 Music Building</p></p></p></p><a href="faculty_1.html">Read More...</a>
+                                </div>
 
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Dr. Ann Clements</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Assistant Professor of Music Education</p>
-				  <p><b>Years at Penn State:</b> 15 years<p><b>Contact:</b></p><p>Phone: (814) 863-4220</p><p>Email:<font color = "blue"> acc13@psu.edu</font><p>Office Number: 204 Music Building I</p></p></p></p><a href="faculty_5.html" >Read More...</a>
- 	</div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Sarah Watts</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b> 4 (plus 6 as a student) years<p><b>Contact:</b></p><p>Phone: (814) 863-0419</p><p>Email:<font color="blue"> shs133@psu.edu</font><p>Office Number: 212 Music Building I</p></p></p></p><a href="faculty_2.html">Read More...</a>
+                                </div>
 
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Dr. Darrin Thornton</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Assistant Professor of Music Education</p>
-				  <p><b>Years at Penn State:</b><p><b>Contact:</b></p><p>Phone: (814) 863-4403</p><p>Email:<font color = "blue"> dht2@psu.edu</font><p>Office Number: 206 Music Building I</p></p></p></p><a href="faculty_6.html">Read More...</a>
- 	</div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Linda Thornton</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b> 17 years<p><b>Contact:</b></p><p>Phone: (814) 863-5723</p><p>Email:<font color="blue"> lct12@psu.edu</font><p>Office Number: 212 Music Building I</p></p></p></p><a href="faculty_3.html">Read More...</a>
+                                </div>
 
-	<div class="columnBorders" style="background-color:#aaa;">
-    	<h2>Mrs. Debbie Dougherty</h2>
-			<img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-				  <p><b>Title:</b> Student Teaching Program Coordinator</p>
-				  <p><b>Years at Penn State:</b> 8 years<p><b>Contact:</b></p><p>Phone: (814) 865-9361</p><p>Email:<font color = "blue"> das54@psu.edu</font><p>Office Number: 249 Music Building I</p></p></p></p><a href="faculty_7.html">Read More...</a>
- 	</div>
-				
-				
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Robert D. Gardner</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b> 15 years<p><b>Contact:</b></p><p>Phone: (814) 933-6995</p><p>Email:<font color="blue"> rdg13@psu.edu</font><p>Office Number: 210 Music Building I</p></p></p></p><a href="faculty_4.html">Read More...</a>
+                                </div>
 
-</div>
-           <!-- <div class="personalInfo">  -->
-                
-        <!--    </div>  -->
-					
-            </div>
-            <br>
-            </div>
-				
-            <!--    <div class="graudateStudents" style="clear: left">
-                <h1 class="p-3 text-center">Graduate Students</h1>
-                    <div class="clearfix item">
-                        <img src="../images/happyvalleystudent.jpg" align="left">
-                        <div class="personalInfo">Temporary Text</div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Ann Clements</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b> 15 years<p><b>Contact:</b></p><p>Phone: (814) 863-4220</p><p>Email:<font color="blue"> acc13@psu.edu</font><p>Office Number: 204 Music Building I</p></p></p></p><a href="faculty_5.html">Read More...</a>
+                                </div>
+
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Dr. Darrin Thornton</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Assistant Professor of Music Education</p>
+                                    <p><b>Years at Penn State:</b><p><b>Contact:</b></p><p>Phone: (814) 863-4403</p><p>Email:<font color="blue"> dht2@psu.edu</font><p>Office Number: 206 Music Building I</p></p></p></p><a href="faculty_6.html">Read More...</a>
+                                </div>
+
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Mrs. Debbie Dougherty</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Title:</b> Student Teaching Program Coordinator</p>
+                                    <p><b>Years at Penn State:</b> 8 years<p><b>Contact:</b></p><p>Phone: (814) 865-9361</p><p>Email:<font color="blue"> das54@psu.edu</font><p>Office Number: 249 Music Building I</p></p></p></p><a href="faculty_7.html">Read More...</a>
+                                </div>
+
+
+
+                            </div>
+                            <!-- <div class="personalInfo">  -->
+                            <!--    </div>  -->
+
+                        </div>
+                        <br>
                     </div>
-                </div> -->
-				
-				
-				<br>
-            <div class="faculty">
-                <h1 class="p-3 text-center">Students</h1>
-            <div class="clearfix item">
-          <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
-				<div class="row">
-  <div class="columnBorders" style="background-color:#aaa;">
-    <h2>Douglas C. McCall</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-	  
-		  <p><b>Years in  Program:</b> 1st Year<p><b>Contact Email:</b><font color = "blue"> dcm68@psu.edu</font><p><b>Age:</b> 43<p><b>Hometown:</b> Baldwinsville, NY</p></p></p></p></p><a href="card_1.html">Read More...</a>
-  </div>
-  <div class="columnBorders" style="background-color:#aaa;">
-   <h2>William Oliver</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program:</b> 1st Year<p><b>Contact Email:</b><font color = "blue"> wlo9@psu.edu</font><p><b>Age: </b>31<p><b>Hometown:</b> Hollywood, Florida</p></p></p></p></p><br><a href="card_2.html">Read More...</a>
-  </div>
-					<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Scott L. Atchison</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b> 2nd Year<p><b>Contact Email: </b><font color = "blue"> sla43@psu.edu</font><p><b>Age: </b>41<p><b>Hometown: </b> Lexington, KY</p></p></p></p></p><br><a href="card_3.html">Read More...</a>
-  </div>
-					<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Michquelena Ferguson</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b> 2nd Year<p><b>Contact Email: </b><font color = "blue"> mmp213@psu.edu</font><p><b>Age:</b> <p><b>Hometown: </b> Pottsville, PA</p></p></p></p></p><br><a href="card_4.html" >Read More...</a>
-  </div>
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Christiana Usenza</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b> 1st Year<p><b>Contact Email: </b><font color = "blue"> cau5@psu.edu</font><p><b>Age: </b>36<p><b>Hometown: </b> Washington, VT</p></p></p></p></p><a href="card_5.html">Read More...</a>
-  </div>
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>James Eldreeth</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color = "blue"> jwe6@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b></p></p></p></p></p><a href="card_6.html">Read More...</a>
-  </div>
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Le Zhang</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b>3rd Year<p><b>Contact Email: </b><font color = "blue"> luz58@psu.edu</font><p><b>Age: </b>32<p><b>Hometown: </b>China</p></p></p></p></p><a href="card_7.html">Read More...</a>
-  </div>
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>YunShu Tan</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color = "blue"> yut70@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b>China</p></p></p></p></p><a href="card_8.html">Read More...</a>
-  </div>
 
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Gregg Mauroni</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color = "blue"> yut70@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b>China</p></p></p></p></p><a href="card_9.html">Read More...</a>
-  </div>
-<div class="columnBorders" style="background-color:#aaa;">
-    <h2>Joey Harell</h2>
-    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
-		<p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color = "blue"> jmh5917@psu.edu</font><p><b>Age: </b>27<p><b>Hometown: </b>Hoarsham, PA</p></p></p></p></p><a href="card_10.html">Read More...</a>
-  </div>
-</div>
-           <!-- <div class="personalInfo">  -->
-                
-        <!--    </div>  -->
-					
-            </div>
-            <br>
-            </div>
-				
-				
-				
-            </div>
-		
+                    <!--    <div class="graudateStudents" style="clear: left">
+                    <h1 class="p-3 text-center">Graduate Students</h1>
+                        <div class="clearfix item">
+                            <img src="../images/happyvalleystudent.jpg" align="left">
+                            <div class="personalInfo">Temporary Text</div>
+                        </div>
+                    </div> -->
 
-            <br>
+
+                    <br>
+                    <div class="faculty">
+                        <h1 class="p-3 text-center">Students</h1>
+                        <div class="clearfix item">
+                            <!--  <img src="../images/happyvalleystudent.jpg" align="left">  -->
+                            <div class="row">
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Douglas C. McCall</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+
+                                    <p><b>Years in  Program:</b> 1st Year<p><b>Contact Email:</b><font color="blue"> dcm68@psu.edu</font><p><b>Age:</b> 43<p><b>Hometown:</b> Baldwinsville, NY</p></p></p></p></p><a href="card_1.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>William Oliver</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program:</b> 1st Year<p><b>Contact Email:</b><font color="blue"> wlo9@psu.edu</font><p><b>Age: </b>31<p><b>Hometown:</b> Hollywood, Florida</p></p></p></p></p><br><a href="card_2.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Scott L. Atchison</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b> 2nd Year<p><b>Contact Email: </b><font color="blue"> sla43@psu.edu</font><p><b>Age: </b>41<p><b>Hometown: </b> Lexington, KY</p></p></p></p></p><br><a href="card_3.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Michquelena Ferguson</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b> 2nd Year<p><b>Contact Email: </b><font color="blue"> mmp213@psu.edu</font><p><b>Age:</b> <p><b>Hometown: </b> Pottsville, PA</p></p></p></p></p><br><a href="card_4.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Christiana Usenza</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b> 1st Year<p><b>Contact Email: </b><font color="blue"> cau5@psu.edu</font><p><b>Age: </b>36<p><b>Hometown: </b> Washington, VT</p></p></p></p></p><a href="card_5.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>James Eldreeth</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color="blue"> jwe6@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b></p></p></p></p></p><a href="card_6.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Le Zhang</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b>3rd Year<p><b>Contact Email: </b><font color="blue"> luz58@psu.edu</font><p><b>Age: </b>32<p><b>Hometown: </b>China</p></p></p></p></p><a href="card_7.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>YunShu Tan</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color="blue"> yut70@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b>China</p></p></p></p></p><a href="card_8.html">Read More...</a>
+                                </div>
+
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Gregg Mauroni</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color="blue"> yut70@psu.edu</font><p><b>Age: </b><p><b>Hometown: </b>China</p></p></p></p></p><a href="card_9.html">Read More...</a>
+                                </div>
+                                <div class="columnBorders" style="background-color:#aaa;">
+                                    <h2>Joey Harell</h2>
+                                    <img src="../images/mara.jpg" alt="" width="160" height="160" align="center"><p>
+                                    <p><b>Years in  Program: </b>2nd Year<p><b>Contact Email: </b><font color="blue"> jmh5917@psu.edu</font><p><b>Age: </b>27<p><b>Hometown: </b>Hoarsham, PA</p></p></p></p></p><a href="card_10.html">Read More...</a>
+                                </div>
+                            </div>
+                            <!-- <div class="personalInfo">  -->
+                            <!--    </div>  -->
+
+                        </div>
+                        <br>
+                    </div>
+
+
+
+                </div>
+
+
+                <br>
+            </div>
         </div>
-    </div>
-	
-	
-	
-    <!-- Footer -->
-  <footer class="p-5 m-0 bg-dark" id="footer">
-    <div class="container">
-      <p class="m-0 text-center text-white">Penn State Music Education
-      </p>
-    </div>
-    <!-- /.container -->
-  </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="js/firebaseDB.js"></script>
-  <script src="js/mainScripts.js"></script>
+
+
+        <!-- Footer -->
+        <footer class="p-5 m-0 bg-dark" id="footer">
+            <div class="container">
+                <p class="m-0 text-center text-white">
+                    Penn State Music Education
+                </p>
+            </div>
+            <!-- /.container -->
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/firebaseDB.js"></script>
+        <script src="js/mainScripts.js"></script>
 </body>
