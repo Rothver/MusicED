@@ -15,6 +15,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
   <link href="css/round-about.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,6 +26,41 @@
 body, html {
   height: 100%;
 }
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width:40px;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius:10%
+
+    }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .psu-site:hover{
+        opacity: 0.7
+    }
 
 </style>
 </head>
@@ -266,35 +302,44 @@ body, html {
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="p-4 m-0 bg-dark" id="footer">
-          <!-- CONTACT SECTION -->
-      <div class="mt-4 col-md-12" name="contact" id="contactSection">
+<footer class="p-4 m-0 bg-dark" id="footer">
+    <!-- CONTACT SECTION -->
+    <div class="mt-4 col-md-12" name="contact" id="contactSection">
         <div class="col-md-8 mx-auto">
-          <form id="contactForm">
-            <h2 class="pt-4 text-white text-center">Questions? Contact us here!</h2>
-            <div class="form-group">
-              <label for="nameInput">Full Name</label>
-              <input type="text" class="form-control" id="nameInput" placeholder="Enter name">
-            </div>
-            <div class="form-group">
-              <label for="emailInput">Email address</label>
-              <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">This email will be used to respond to your request.</small>
-            </div>
-            <div class="form-group">
-              <label for="messageInput">Message</label>
-              <textarea type="text" rows="3" class="form-control" id="messageInput" placeholder="Enter message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <p class="pt-4 m-0 text-center text-green" id="contactConfirmation">Request sent! You will be contacted shortly.</p>
-          </form>
+            <form id="contactForm">
+                <h2 class="pt-4 text-white text-center">Questions? Contact us here!</h2>
+                <div class="form-group">
+                    <label for="nameInput">Full Name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">This email will be used to respond to your request.</small>
+                </div>
+                <div class="form-group">
+                    <label for="messageInput">Message</label>
+                    <textarea type="text" rows="3" class="form-control" id="messageInput" placeholder="Enter message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <p class="pt-4 m-0 text-center text-green" id="contactConfirmation">Request sent! You will be contacted shortly.</p>
+            </form>
         </div>
-      </div>
-      <p class="m-0 text-center text-white">Penn State Music Education
-        <i> Social media links go here</i>
-      </p>
+    </div>
+    <p class="m-0 text-center">
+        <a href="http://music.psu.edu" target="_blank" class="psu-site text-white font-weight-bold">Penn State Music Education</a>
+    </p>
+    <!--- Social Media Links-->
+    <div class="text-white text-center">
+        <a href="http://www.facebook.com/pages/Penn-State-School-of-Music/137000593140" target="_blank"class="fa fa-facebook"></a>
+        <a href="https://twitter.com/PSUMusicSchool" target="_blank" class="fa fa-twitter"></a>
+        <a href="http://youtube.com/user/pennstatemusic" target="_blank" class="fa fa-youtube"></a>
+        <a href="http://www.linkedin.com/pub/penn-state-school-of-music/65/176/740" target="_blank" class="fa fa-linkedin"></a>
+    </div>
     
-  </footer>
+
+
+</footer>
 </div>
 </body>
 </html>
